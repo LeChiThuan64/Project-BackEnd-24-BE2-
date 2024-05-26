@@ -1,0 +1,5 @@
+*
+!data/
+!.gitignore
+!/path/to/project/auth/
+storage/logs/laravel.log

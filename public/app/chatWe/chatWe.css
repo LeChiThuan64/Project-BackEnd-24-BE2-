@@ -1,0 +1,105 @@
+
+.TenChat {
+    width: 100%;
+    height: 66px; /* Chiều cao của tiêu đề */
+    background-color: rgb(61, 116, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+    display: block; /* Đảm bảo tiêu đề luôn hiển thị */
+}
+
+.TenChat:hover {
+    background-color: rgb(87, 110, 238);
+}
+
+.khung-chat {
+    bottom: 0%;
+    right: 10px;
+    position: absolute;
+    /* làm cho nó xuống gốc bên phải */
+}
+
+.contaniner-fluid {
+    width: 500px;
+    height: 350px;
+    background-color: rgb(250, 214, 220);
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: height 0.3s ease;
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-input input {
+    flex: 5;
+    padding: 9px;
+}
+
+.user-input button {
+    padding: 8px 40px;
+    background-color: rgb(61, 116, 255);
+    color: #ffffff;
+    border: none;
+
+}
+
+.user-input button:hover {
+    background-color: rgb(32, 24, 58);
+
+}
+
+.o-chat {
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    max-width: 80%;
+}
+
+.text-nhan {
+    background-color: aqua;
+    clear: both;
+    float: left;
+}
+
+.text-gui {
+    background-color: rgb(181, 251, 210);
+    clear: both;
+    float: right;
+}
+
+#chat {
+    padding: 15px;
+    overflow: scroll;
+    height: 350px;
+}
+
+
+.contaniner-fluid {
+    width: 90px; /* Chiều rộng khi thu nhỏ */
+    height: 50px; /* Chiều cao khi thu nhỏ */
+    overflow: hidden; /* Ẩn nội dung không vừa với khung khi thu nhỏ */
+    transition: height 0.3s ease, width 0.3s ease; /* Chuyển đổi mượt mà khi thay đổi kích thước */
+}
+
+
+.khung-chat {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    z-index: 1000;
+}
+.jan {
+    height: 50px;
+    width: 90px;
+    overflow: hidden; 
+    transition: height 0.3s ease, width 0.3s ease;
+}
